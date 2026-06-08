@@ -6,11 +6,11 @@ export const Hero = () => {
     return (
         <div
             className="mt-12 flex flex-col items-center justify-start px-4 py-10"
-            style={{
-                backgroundImage: `url(${gridBg})`,
-                backgroundSize: '48px 48px',
-                backgroundRepeat: 'repeat'
-            }}
+        style={{
+            backgroundImage: `url(${gridBg})`,
+            backgroundSize: '480px 480px',
+            backgroundRepeat: 'repeat'
+        }}
         >
 
             <div id='p-img' className='text-white'>
@@ -32,8 +32,8 @@ export const Hero = () => {
             </div>
 
             <div id='cta-btn' className='flex gap-6 mt-4'>
-                <button className='border-2 px-6 py-2 rounded border-[#64FFDA] text-[#64FFDA] font-bold cursor-pointer'>View Projects</button>
-                <button className='border-2 px-4 py-2 rounded bg-[var(--color-accent)] border-[var(--color-bg-primary)] text-[var(--color-bg-primary)] font-bold cursor-pointer'>Resume</button>
+                <button className='border-2 px-6 py-2 rounded border-[#64FFDA] text-[#64FFDA] font-bold'>View Projects</button>
+                <button className='border-2 px-4 py-2 rounded bg-[var(--color-accent)] border-[var(--color-bg-primary)] text-[var(--color-bg-primary)] font-bold'>Resume</button>
             </div>
 
         </div>
