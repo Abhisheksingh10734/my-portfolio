@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --color-bg-primary: #0A0F1E;
+  --color-bg-secondary: #112240;
+
+  /* Surfaces (cards, navbar, panels) */
+  --color-surface: #1D3461;
+  --color-surface-hover: #233554;
+
+  /* Accent / interactive elements */
+  --color-accent: #64FFDA;
+
+  /* Text */
+  --color-text-primary: #CCD6F6;
+  --color-text-secondary: #8892B0;
+}
