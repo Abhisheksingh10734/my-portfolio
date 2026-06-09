@@ -97,7 +97,8 @@ export const Github = () => {
                   rel='noreferrer'
                   className='text-[#8892B0] text-sm font-mono hover:text-[#64FFDA] transition-colors duration-200'
                 >
-                  github.com/{USERNAME}
+                  <span className='hidden sm:inline'>github.com/{USERNAME}</span>
+                  <span className='sm:hidden'>@{USERNAME}</span>
                 </a>
               </>
             )}
