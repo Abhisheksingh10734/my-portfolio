@@ -28,6 +28,7 @@ import socket from '../assets/Socket.png';
 import tailwind from '../assets/Tailwind.png';
 import typeScript from '../assets/TypeScript.png';
 import vscode from '../assets/vscode.png';
+import dotenv from '../assets/dotenv.png';
 
 const tech = [
   { id: 1, name: "Axios", icon: axios },
@@ -60,6 +61,7 @@ const tech = [
   { id: 28, name: "Tailwind CSS", icon: tailwind },
   { id: 29, name: "TypeScript", icon: typeScript },
   { id: 30, name: "VS Code", icon: vscode },
+  { id: 31, name: "Dotenv", icon: dotenv },
 ];
 
 export default tech;
