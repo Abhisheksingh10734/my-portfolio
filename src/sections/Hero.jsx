@@ -5,7 +5,7 @@ import abhi from '../assets/abhi.jpg';
 export const Hero = () => {
     return (
         <div
-            className="mt-12 sm:mt-16 flex flex-col md:flex-row items-center justify-center px-6 md:px-16 gap-10 relative pt-15 pb-20 sm:py-24"
+            className="mt-12 flex flex-col md:flex-row items-center justify-center px-6 md:px-16 gap-10 relative pt-15 pb-20 sm:py-24"
             style={{
                 backgroundImage: `url(${gridBg})`,
                 backgroundSize: '680px 680px',
