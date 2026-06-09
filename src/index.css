@@ -16,3 +16,25 @@
   --color-text-primary: #CCD6F6;
   --color-text-secondary: #8892B0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section, [id] {
+  scroll-margin-top: 64px;  /* navbar ki height ke barabar */
+}
+
+#about, #projects, #github, #contact {
+  scroll-margin-top: 64px;
+}
+
+[id] {
+  scroll-margin-top: 48px;
+}
+
+@media (min-width: 768px) {
+  [id] {
+    scroll-margin-top: 64px;
+  }
+}
