@@ -29,6 +29,7 @@ import tailwind from '../assets/Tailwind.png';
 import typeScript from '../assets/TypeScript.png';
 import vscode from '../assets/vscode.png';
 import dotenv from '../assets/dotenv.png';
+import adf from '../assets/adf.png';
 
 const tech = [
   { id: 1, name: "Axios", icon: axios },
@@ -62,6 +63,7 @@ const tech = [
   { id: 29, name: "TypeScript", icon: typeScript },
   { id: 30, name: "VS Code", icon: vscode },
   { id: 31, name: "Dotenv", icon: dotenv },
+  { id: 32, name: "Azure Data Factory", icon: adf },
 ];
 
 export default tech;
