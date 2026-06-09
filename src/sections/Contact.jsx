@@ -14,14 +14,14 @@ export const Contact = () => {
     setStatus('sending');
 
     emailjs.send(
-      'service_vg6a6oi',
-      'template_kk0nxfc',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         from_email: form.email,
         message: form.message,
       },
-      'wKAmdwKG_Q2bcRhgU'
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
       .then(() => {
         setStatus('success');
