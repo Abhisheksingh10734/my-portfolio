@@ -65,7 +65,8 @@ export const Navbar = () => {
         </a>
       ))}
         <a
-          href='#'
+          href='./Abhishek_Singh_Resume.pdf'
+          download='Abhishek_Singh_Resume.pdf'
           className='px-6 py-2.5 rounded-lg border border-[#64FFDA] text-[#64FFDA] font-bold text-sm hover:bg-[rgba(100,255,218,0.1)] transition-all duration-200'
         >
           Resume
