@@ -1,6 +1,7 @@
 import React from 'react';
 import gridBg from '../assets/gridBg.jpg';
-import abhi from '../assets/abhi.jpg';
+// import abhi from '../assets/abhi.jpg';
+import abhi from '../assets/abhi.png';
 
 export const Hero = () => {
     return (
