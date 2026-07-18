@@ -1,7 +1,7 @@
 import React from 'react';
 import tech from '../utils/techStack';
 // import abhi from '../assets/abhi.jpg';
-import abhi from '../assets/abhi.png';
+import abhi from '../assets/link.png';
 import { stats } from '../utils/stats';
 
 export const About = () => {
