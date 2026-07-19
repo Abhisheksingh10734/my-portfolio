@@ -1,5 +1,6 @@
 import taskflow from "../assets/taskflow.png";
 import tbl from "../assets/tbl.png";
+import killswitch from "../assets/killswitch.png";
 
 export const projects = [
   {
@@ -10,6 +11,15 @@ export const projects = [
     image: taskflow,
     demo: 'https://taskflow-tbl.vercel.app',
     github: 'https://github.com/Abhisheksingh10734/task-manager.git',
+  },
+  {
+    type: '// Featured Project',
+    name: 'Kill Switch — Protect Your Legacy',
+    desc: 'Kill Switch is a full-stack digital legacy platform built with React, Express, and PostgreSQL. It lets users securely store critical documents and automatically delivers them to designated nominees if the user becomes unreachable — ensuring loved ones always have access to what they need, when they need it most.',
+    techs: ['React', 'Tailwind', 'Express', 'PostgresSQL', 'Node.js', 'Supabase', 'JWT', 'Node-Cron'],
+    image: killswitch,
+    demo: 'https://kill-switch-legacy.vercel.app/',
+    github: 'https://github.com/Abhisheksingh10734/',
   },
   {
     type: '// Featured Project',
